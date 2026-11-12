@@ -1,4 +1,4 @@
-# hoshin-app
+# Hoshin Kanri
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,135 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-hoshin-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://hoshin.app/
+Hoshin Kanri provides software for manufacturers to implement Hoshin Kanri strategic planning with AI agents. It offers a live X‑Matrix dashboard, AI‑assisted reviews, and integration via MCP for agents like Claude. The platform helps trace shop‑floor deviations to strategic objectives, supports team collaboration, and includes free and paid plans for solo, team, and partner use.
+
+**Areas:** Software · Manufacturing · AI · Strategy · HoshinKanri
+
+## Hoshin Kanri on APIs.io
+
+Everything profiled for Hoshin Kanri is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hoshin-app/](https://apis.io/providers/hoshin-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [Hoshin Kanri Analysis API](https://apis.io/apis/hoshin-app/hoshin-app-analysis-api/) — The Analysis API from Hoshin Kanri — 8 operation(s) for analysis.
+- [Hoshin Kanri Cadences API](https://apis.io/apis/hoshin-app/hoshin-app-cadences-api/) — The Cadences API from Hoshin Kanri — 7 operation(s) for cadences.
+- [Hoshin Kanri Elements API](https://apis.io/apis/hoshin-app/hoshin-app-elements-api/) — The Elements API from Hoshin Kanri — 7 operation(s) for elements.
+- [Hoshin Kanri Exports API](https://apis.io/apis/hoshin-app/hoshin-app-exports-api/) — The Exports API from Hoshin Kanri — 2 operation(s) for exports.
+- [Hoshin Kanri Ideas API](https://apis.io/apis/hoshin-app/hoshin-app-ideas-api/) — The Ideas API from Hoshin Kanri — 2 operation(s) for ideas.
+- [Hoshin Kanri Identity API](https://apis.io/apis/hoshin-app/hoshin-app-identity-api/) — The Identity API from Hoshin Kanri — 3 operation(s) for identity.
+- [Hoshin Kanri Matrices API](https://apis.io/apis/hoshin-app/hoshin-app-matrices-api/) — The Matrices API from Hoshin Kanri — 2 operation(s) for matrices.
+- [Hoshin Kanri Sharing API](https://apis.io/apis/hoshin-app/hoshin-app-sharing-api/) — The Sharing API from Hoshin Kanri — 2 operation(s) for sharing.
+- [Hoshin Kanri Themes API](https://apis.io/apis/hoshin-app/hoshin-app-themes-api/) — The Themes API from Hoshin Kanri — 2 operation(s) for themes.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Hoshin Kanri Agentic Access](https://apis.io/agentic-access/hoshin-app/hoshin-app-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CadenceArchitecture](https://apis.io/schemas/hoshin-app/hoshin-app-cadence-architecture/)
+- [Cascade](https://apis.io/schemas/hoshin-app/hoshin-app-cascade/)
+- [Completeness](https://apis.io/schemas/hoshin-app/hoshin-app-completeness/)
+- [Element](https://apis.io/schemas/hoshin-app/hoshin-app-element/)
+- [ElementUpdated](https://apis.io/schemas/hoshin-app/hoshin-app-element-updated/)
+- [MatricesExport](https://apis.io/schemas/hoshin-app/hoshin-app-matrices-export/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Hoshin App Context](https://apis.io/jsonld/hoshin-app/hoshin-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Hoshin Kanri API Rules](https://apis.io/rules/hoshin-app/hoshin-app-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hoshin Kanri Authentication](https://apis.io/security/hoshin-app/hoshin-app-authentication/)
+- [Hoshin Kanri Domain Security](https://apis.io/security/hoshin-app/hoshin-app-domain-security/)
+- [Hoshin Kanri Vulnerability Disclosure](https://apis.io/security/hoshin-app/hoshin-app-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Hoshin Kanri Plans Pricing](https://apis.io/plans/hoshin-app/hoshin-app-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hoshin.app/)
+- [API reference](https://hoshin.app/developers)
+- [Pricing](https://hoshin.app/pricing)
+- [Security](https://github.com/wellknownmcp/hoshin-kanri/blob/main/SECURITY.md)
+- [Privacy policy](https://hoshin.app/legal/privacy?locale=en)
+
+## API Evangelist rating
+
+**Kin Score 49.6** — developing · rubric 0.27.0 · scored 2026-11-11
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 54.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 25.5 |
+| Access clarity | 62.6 |
+
+**Agent readiness 44.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hoshin-app/](https://apis.io/providers/hoshin-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hoshin Kanri: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hoshin-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
